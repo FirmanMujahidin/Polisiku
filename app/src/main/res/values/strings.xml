@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PolisiKu</string>
+    <string name="layanan1">Mencari Layanan \n Polisi Terdekat</string>
+    <string name="layanan2">Mencari Layanan \n Polisi Di Kota Lain</string>
+    <string name="layanan3">Pengaduan Masyarakat</string>
+    <string name="layanan4">Halo Polisi</string>
+
+
+    <string name="telephone1">Telephon Polisiku - Internet Call</string>
+    <string name="telephone1sub">Komunikasi Jalur Internet Call gunakan dengan bijak</string>
+    <string name="telephone2">Telephon Polisiku - Video Call</string>
+    <string name="telephone2sub">Komunikasi Jalur Video Call gunakan dengan bijak</string>
+    <string name="telephone3">Telephon Polisiku - Telepon</string>
+    <string name="telephone3sub">komunikasi menggunakan jalur provider dikenakan pulsa</string>
+</resources>

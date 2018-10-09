@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.invisionapp.polisiku.HomeActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/template"/>
+
+    <LinearLayout
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        tools:ignore="RtlCompat">
+
+        <Button
+            android:id="@+id/btnGo1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.9"
+            android:text="@string/layanan1"
+            android:textAllCaps="true"
+            android:background="@color/colorBlackGrey"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack"
+            android:src="@drawable/ic_chevron_right_black"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn2"
+        android:layout_below="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="RtlCompat">
+
+        <Button
+            android:id="@+id/btnGo2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.9"
+            android:text="@string/layanan2"
+            android:textAllCaps="true"
+            android:background="@color/colorBlackGrey2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack2"
+            android:src="@drawable/ic_chevron_right_black"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn3"
+        android:layout_below="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="RtlCompat">
+
+        <Button
+            android:id="@+id/btnGo3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.9"
+            android:text="@string/layanan3"
+            android:textAllCaps="true"
+            android:background="@color/colorBlackGrey3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack3"
+            android:src="@drawable/ic_chevron_right_black"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn4"
+        android:layout_below="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="RtlCompat">
+
+        <Button
+            android:id="@+id/btnGo4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.9"
+            android:text="@string/layanan4"
+            android:textAllCaps="true"
+            android:background="@color/colorBlackGrey3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlack3"
+            android:src="@drawable/ic_chevron_right_black"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+</RelativeLayout>
